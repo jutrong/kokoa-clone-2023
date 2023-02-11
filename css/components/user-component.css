@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 18px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -8,12 +9,16 @@
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .user-component__avatar {
   width: 70px;
   height: 70px;
   border-radius: 27px;
   margin-right: 17px;
+  cursor: pointer;
 }
 .user-component__avatar-xl {
   width: 80px;
@@ -22,9 +27,15 @@
 .user-component__title {
   font-weight: 500;
   font-size: 18px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  /* margin-bottom: -9px; */
+  margin: 0;
+  padding: 0;
 }
 .user-component__subtitle {
-  margin-top: 8px;
+  margin: 5px 0px;
+  padding: 0;
   color: rgba(0, 0, 0, 0.4);
   font-size: 17px;
   font-weight: normal;
@@ -36,4 +47,10 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+  cursor: pointer;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
 }

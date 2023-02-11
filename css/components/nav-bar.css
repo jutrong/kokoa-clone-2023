@@ -10,21 +10,13 @@
 .nav__ul{
   display: flex;
   justify-content: space-between;
+  margin-right: 50px;
 }
 .nav__link {
   color: #2e363e;
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  border-radius: 50%;
-  font-weight: 600;
   position: absolute;
   top: -15px;
   left: 12px;

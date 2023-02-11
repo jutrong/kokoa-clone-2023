@@ -3,8 +3,9 @@
   display: block;
   background-color: #fafafa;
   padding: 15px 0px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 15px;
+  margin-top: -20px;
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
@@ -16,7 +17,7 @@
 }
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
@@ -27,4 +28,5 @@
 }
 .friends-screen__channel-header i {
   font-size: 5px;
+  cursor: pointer;
 }
