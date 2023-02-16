@@ -3,11 +3,11 @@
   justify-content: center;
   /* border: 1px solid black; */
   padding: 5px 3px;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
-  width: 100%;
+  width: 99%;
   box-sizing: border-box;
-  margin-bottom: -25px;
+  /* margin-bottom: 140px; */
   /* font-size: 17px; */
 }
 .status-bar__column {
